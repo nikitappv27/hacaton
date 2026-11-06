@@ -1,0 +1,21 @@
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin page-container {
+  width: 100%;
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+@mixin purple-hover {
+  transition: $transition;
+
+  &:hover {
+    color: $white;
+    background: $primary-hover;
+  }
+}
